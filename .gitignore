@@ -1,0 +1,13 @@
+/dev
+node_modules/
+npm-debug.log
+.DS_Store
+
+build/
+build-staging/
+dev/
+
+*.zip
+*.crx
+*.pem
+update.xml

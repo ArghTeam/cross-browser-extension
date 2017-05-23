@@ -1,0 +1,29 @@
+{
+  "version": "2.0.5",
+  "name": "HealthTag",
+  "manifest_version": 2,
+  "description": "Easily save, tag, note, rate and recall valuable health-related sites, and start using health information to your health advantage!",
+  "browser_action": {
+    "default_title": "HealthTag"
+  },
+  "icons": {
+    "16": "img/icon-16.png",
+    "48": "img/icon-48.png",
+    "128": "img/icon-128.png"
+  },
+  "background": {
+    "page": "background.html"
+  },
+  "web_accessible_resources": [
+    "app.html"
+  ],
+  "permissions": [
+    "management",
+    "tabs",
+    "cookies",
+    "storage",
+    "https://healthtagit.dev.argh.team/*",
+    "<all_urls>"
+  ],
+  "content_security_policy": "default-src 'self'; script-src 'self' 'unsafe-eval'; font-src * data:; connect-src http://* https://*; style-src * 'unsafe-inline' 'self' blob:; img-src 'self' data: http://* https://*;"
+}

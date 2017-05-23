@@ -1,0 +1,18 @@
+@import "../app/components/globals.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500');
+
+html {
+    font-size: 10px;
+}
+body {
+    font-family: var(--font-default);
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: var(--text-dark);
+}
+
+* {
+    box-sizing: border-box;
+}

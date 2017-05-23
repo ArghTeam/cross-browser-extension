@@ -1,0 +1,5 @@
+@import '../../app/components/globals.css';
+
+.container {
+    background: var(--primary);
+}

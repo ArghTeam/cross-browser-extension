@@ -1,0 +1,56 @@
+:root {
+    /*Swatches*/
+	--white: #ffffff;
+	--barbie-pink: #fb2f88;
+	--strawberry: #ff273b;
+	--lipstick: #d92132;
+	--azure: #0290ff;
+	--sky-blue: #44C6ED;
+	--black: #000000;
+
+	/* Social colors */
+	--fb: #39579a;
+	--fb-darker: #304a83;
+	--tw: #00abf1;
+	--tw-darker: #0091cd;
+	--in: #0076b7;
+	--in-darker: #00649b;
+	--pt: #bd081c;
+	--pt-darker: #a00617;
+	--bf: #1e1e1e;
+	--bf-darker: #000000;
+
+	/*UI*/
+	--bg-start: rgba(205, 0, 191, 0.95);
+	--bg-end: rgba(0, 23, 140, 0.95);
+	--primary: var(--sky-blue);
+	--primary-darker: var(--lipstick);
+	--selection: var(--barbie-pink);
+	--link: var(--sky-blue);
+	--secondary: var(--azure);
+	--secondary-darker: var(--azure);
+	--text: var(--white);
+	--text-dark: var(--black);
+	--card: var(--white);
+
+    /*Fonts*/
+	--font-heading: Roboto, sans-serif;
+	--font-sub-heading: Roboto, sans-serif;
+	--font-default: Roboto, sans-serif;
+
+
+
+	/*--color-divider: var(--palette-grey-200);*/
+	/*--color-background: var(--color-white);*/
+	/*--color-text: var(--palette-grey-900);*/
+	/*--color-text-secondary: var(--palette-grey-600);*/
+
+	--color-primary: var(--black);
+	--color-primary-dark: var(--black);
+	/*--color-accent: var(--palette-pink-a200);*/
+	/*--color-accent-dark: var(--palette-pink-700);*/
+	/*--color-primary-contrast: var(--color-dark-contrast);*/
+	/*--color-accent-contrast: var(--color-dark-contrast);*/
+
+
+}

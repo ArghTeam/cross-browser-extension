@@ -1,0 +1,27 @@
+doctype html
+
+html
+  head
+    meta(charset='UTF-8')
+    title Healthtag
+    style.
+      html {
+        font-size: 10px;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+      }
+      * {
+        box-sizing: border-box;
+      }
+  body
+    #root
+    if env == 'dev'
+      script(src='chrome-extension://lmhkpmbekcpmknklioeibfkpmmfibljd/js/redux-devtools-extension.js')
+    script(src=env == 'dev' ? '' : '/js/commons.bundle.js')
+    script(src=env == 'dev' ? 'https://argh.local:4000/js/app.bundle.js' : '/js/app.bundle.js')
