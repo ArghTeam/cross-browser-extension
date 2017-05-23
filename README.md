@@ -1,4 +1,4 @@
-# Chrome extension for HealthTag
+# Cross-browser extension starter
 
 ### Development
 - install packages: `npm i`
